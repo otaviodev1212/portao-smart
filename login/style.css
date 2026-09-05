@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    min-height: 100hv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg,#0f172a,#1e293b,#0f172a);
+    overflow: hidden;
+}
+
+/* Caixa do login */
+.login-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-box{
+    width:100%;
+    max-width:420px;
+    background:rgba(30,41,59,.90);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:20px;
+    padding:40px;
+    backdrop-filter:blur(12px);
+    box-shadow:0 15px 35px rgba(0,0,0,.45);
+    animation:aparecer .7s ease;
+}
+
+/* Logo */
+.logo{
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background: #2563eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 38px;
+    box-shadow: 0 0 25px rgba(37,99,235,.5);
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    color:#bfc9d4;
+    text-align:center;
+    margin-top:8px;
+    margin-bottom:30px;
+}
+
+/* Inputs */
+.input-box{
+    display:flex;
+    align-items:center;
+    background:#334155;
+    border-radius:12px;
+    margin-bottom:18px;
+    padding:0 15px;
+    transition:.3s;
+}
+
+.input-box:focus-within{
+    border: 1px solid #2563eb;
+    box-shadow: 0 0 15px rgba(37,99,235,.3);
+}
+
+input-box i{
+    color: #60a5fa;
+    font-size: 18px;
+}
+
+
+.input-box input{
+    width:100%;
+    background:none;
+    border:none;
+    outline:none;
+    color:white;
+    padding:16px 12px;
+    font-size:16px;
+}
+
+.input-box input::placeholder{
+    color:#94a3b8;
+}
+
+.senha-box{
+    position: relative;
+}
+
+#toggleSenha{
+    cursor: pointer;
+    color: #94a3b8;
+    transition: .3s;
+}
+
+#toggleSenha:hover{
+    color: #3b82f6;
+}
+
+/* Botões */
+button{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    background:#2563eb;
+    color:white;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#0f6bff;
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(37,99,235,.35);
+}
+
+.btn-cadastro{
+    display:block;
+    width:100%;
+    margin-top:15px;
+    padding:14px;
+    text-align:center;
+    text-decoration:none;
+    border:2px solid #0f6bff;
+    border-radius:10px;
+    color:#ffffff;
+    background:transparent;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-cadastro:hover{
+    background:#0f6bff;
+    color:#ffffff;
+    transform:scale(1.03);
+}
+
+/* Rodpé */
+.versao{
+    display: felx;
+    text-align: center;
+    color:#94a3b8;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+/* Animação */
+@keyframes aparecer{
+    from{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsivo */
+@media(max-width:500px){
+    .login-box{
+        padding: 30px 20px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    .logo{
+        width: 75px;
+        height: 75px;
+        font-size: 30px;
+    }
+}
