@@ -73,7 +73,8 @@ O projeto será evoluído futuramente com:
 
 ## 🖥️ Demonstração
 
-*(Adicionar imagens ou GIF do projeto futuramente)*
+<img width="1920" height="1080" alt="dashboard" src="https://github.com/user-attachments/assets/b1cb8fc0-db5e-4cbd-847e-89cab7cbe379" />
+
 
 ---
 
