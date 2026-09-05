@@ -55,15 +55,24 @@ O projeto será evoluído futuramente com:
 ## 📂 Estrutura do Projeto
 
 ```
-portão-smart-frontend/
-
-│── index.html
-│── style.css
-│── script.js
+PORTÃO/
 │
-├── assets/
-│   ├── images/
-│   └── icons/
+├── admin/
+│   ├── admin.css
+│   ├── admin.html
+│   └── admin.js
+│
+├── dashboard/
+│   ├── dashboard.css
+│   ├── dashboard.html
+│   └── dashboard.js
+│
+├── login/
+│   ├── cadastro.html
+│   ├── cadastro.js
+│   ├── login.html
+│   ├── script.js
+│   └── style.css
 │
 └── README.md
 ```
