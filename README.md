@@ -39,6 +39,19 @@ Atualmente este repositório contém apenas a interface Front-end.
 
 ---
 
+## 🔮 Próximas etapas
+
+O projeto será evoluído futuramente com:
+
+- 🔐 Sistema de login e gerenciamento de usuários
+- 📊 Dashboard de controle do portão
+- 🐍 Backend desenvolvido em **Python** utilizando **Flask**
+- 🗄️ Banco de dados **SQLite** para armazenamento de informações
+- 📱 Aplicativo utilizando **Flet**
+- 📡 Comunicação com **ESP32** para integração
+
+---
+
 ## 📂 Estrutura do Projeto
 
 ```
@@ -54,20 +67,6 @@ portão-smart-frontend/
 │
 └── README.md
 ```
-
----
-
-## 🔮 Próximas etapas
-
-O projeto será evoluído futuramente com:
-
-- [ ] Sistema de login
-- [ ] Dashboard de controle
-- [ ] Backend com Flask
-- [ ] Banco de dados SQLite
-- [ ] Aplicativo utilizando Flet
-- [ ] Comunicação com ESP32
-- [ ] Controle real do motor do portão
 
 ---
 
